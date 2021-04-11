@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EA2565C3C2791F74352E772A5B14A0 /* ReSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD6B4512614CB888E9206FFFE44D88 /* ReSwift-dummy.m */; };
+		1931E75C6AA6364C76AE8B96F0E54EBD /* TypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2356D08D853B46514A118B8C71E5E435 /* TypeHelper.swift */; };
+		20B4BF5EAAEB799C7054E118F3CBB972 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ACE0D5ACB1E15FD14CFD3AD81E2977 /* Action.swift */; };
+		22C5FE7E5703604DF225AF0259DFCC16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		29B6735609327FA2CDE0D800F8FD32DB /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7433F7A2AA8914B55420E400BDE4D93 /* StoreType.swift */; };
+		300A9001A0B0D04C9F269885DE6FE392 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6666D31DE3649A3837BC27D68F100794 /* Subscription.swift */; };
+		40BD2A8D386AD2F905530A8B35C89DF0 /* StoreSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABC84A43BA1AF39082A2BEE5E646DC0 /* StoreSubscriber.swift */; };
+		4354A3EFA0764B8277A63F967F3A8B39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5AF9D73AA7132ED4CFA5A12B785508D5 /* DispatchingStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D843D4DCC6EB67C8C6B5319F5215742 /* DispatchingStoreType.swift */; };
+		5E849AC7A9C362FF50AA7053A2000406 /* Pods-ToDoAppWithReSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8677120D6F41949B12D17EB5D12802E4 /* Pods-ToDoAppWithReSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E8B844695527A46C98C6E3807689D6 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93EB10AF22A5B9135DFECAD273116ED /* Store.swift */; };
+		862AFBE605CA9CE52EA72683BEA68E82 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A70C04BA471C0F1F9580028468F997 /* State.swift */; };
+		92526720CCD829818C4A1B82BDD6A3E8 /* ReSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF37F4A287700EC43C3C4CF80A0C318 /* ReSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97847B51E2535652B1931CA745E414EE /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B73BD0100BCB4B90F259D75B10D7B9 /* Middleware.swift */; };
+		B7D0C704440C94315791A6E8673FB9DB /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B04B2C9F5BB483027488F2B5EEC0CA /* Reducer.swift */; };
+		BCE15EED0DC004F52A477BEA21D0D0EE /* Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E695108938B979F494079F8399471 /* Assertions.swift */; };
+		BE6D366CA76133AAACA4671BB8394A8D /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325D91489D36440C1FBBC44FA507927B /* Coding.swift */; };
+		CE29FD5F6AFC1610BAD7EF7DB16F4172 /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF53C6BDD299D3748C995C8BDE8517 /* Synchronized.swift */; };
+		E2B776532A73CDE5CDA8EB2B69257CB4 /* Pods-ToDoAppWithReSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD21ACD6F5822714193AC9F8422D7BF /* Pods-ToDoAppWithReSwift-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD49B3CE7030F2C7718D584DE1AB5783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D8EA5BD8126DF56C564CDD8B8C585D0;
+			remoteInfo = ReSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BAE7022D365503A7A8A05996CCD806A /* Pods-ToDoAppWithReSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToDoAppWithReSwift-Info.plist"; sourceTree = "<group>"; };
+		22B73BD0100BCB4B90F259D75B10D7B9 /* Middleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Middleware.swift; path = ReSwift/CoreTypes/Middleware.swift; sourceTree = "<group>"; };
+		2356D08D853B46514A118B8C71E5E435 /* TypeHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeHelper.swift; path = ReSwift/Utils/TypeHelper.swift; sourceTree = "<group>"; };
+		25A3081173C650DA5C1CADA824CBB039 /* ReSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReSwift.debug.xcconfig; sourceTree = "<group>"; };
+		2DDD6B4512614CB888E9206FFFE44D88 /* ReSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReSwift-dummy.m"; sourceTree = "<group>"; };
+		2FD21359AE3EC23A1FB2E2BF0A76BD75 /* Pods-ToDoAppWithReSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToDoAppWithReSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		325D91489D36440C1FBBC44FA507927B /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = ReSwift/Utils/Coding.swift; sourceTree = "<group>"; };
+		47151EBF0E4F1A8242746E54829097DB /* Pods-ToDoAppWithReSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToDoAppWithReSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		5DB8EF316BC659859B10EF2DE80D5F98 /* ReSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReSwift.release.xcconfig; sourceTree = "<group>"; };
+		62EE9F82C56371CBE0A7764B76B397D6 /* ReSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReSwift.modulemap; sourceTree = "<group>"; };
+		6666D31DE3649A3837BC27D68F100794 /* Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subscription.swift; path = ReSwift/CoreTypes/Subscription.swift; sourceTree = "<group>"; };
+		6D843D4DCC6EB67C8C6B5319F5215742 /* DispatchingStoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchingStoreType.swift; path = ReSwift/CoreTypes/DispatchingStoreType.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		750E695108938B979F494079F8399471 /* Assertions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assertions.swift; path = ReSwift/Utils/Assertions.swift; sourceTree = "<group>"; };
+		79A70C04BA471C0F1F9580028468F997 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = ReSwift/CoreTypes/State.swift; sourceTree = "<group>"; };
+		8677120D6F41949B12D17EB5D12802E4 /* Pods-ToDoAppWithReSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToDoAppWithReSwift-umbrella.h"; sourceTree = "<group>"; };
+		8ABF53C6BDD299D3748C995C8BDE8517 /* Synchronized.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Synchronized.swift; path = ReSwift/Utils/Synchronized.swift; sourceTree = "<group>"; };
+		9B1F4D291014ECD415BABC4F684D37DB /* ReSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReSwift.framework; path = ReSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9AD477AE3008F499FD8ADCA254C84F /* Pods-ToDoAppWithReSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDoAppWithReSwift.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7B04B2C9F5BB483027488F2B5EEC0CA /* Reducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reducer.swift; path = ReSwift/CoreTypes/Reducer.swift; sourceTree = "<group>"; };
+		A95A0463304DC6C8C053479A8AD29F44 /* Pods_ToDoAppWithReSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ToDoAppWithReSwift.framework; path = "Pods-ToDoAppWithReSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2ECA5755066A42D25632C51325493B5 /* Pods-ToDoAppWithReSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToDoAppWithReSwift-frameworks.sh"; sourceTree = "<group>"; };
+		BABC84A43BA1AF39082A2BEE5E646DC0 /* StoreSubscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreSubscriber.swift; path = ReSwift/CoreTypes/StoreSubscriber.swift; sourceTree = "<group>"; };
+		BAF37F4A287700EC43C3C4CF80A0C318 /* ReSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-umbrella.h"; sourceTree = "<group>"; };
+		C93EB10AF22A5B9135DFECAD273116ED /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Store.swift; path = ReSwift/CoreTypes/Store.swift; sourceTree = "<group>"; };
+		CCFECCA8815DE13865B1197D6C2B8876 /* ReSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReSwift-Info.plist"; sourceTree = "<group>"; };
+		CF0526F6C7D08A1F98742B9E2E04AED3 /* Pods-ToDoAppWithReSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDoAppWithReSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		D05D872C8619FEE7F5ABBF236D8DB734 /* ReSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-prefix.pch"; sourceTree = "<group>"; };
+		D0ACE0D5ACB1E15FD14CFD3AD81E2977 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = ReSwift/CoreTypes/Action.swift; sourceTree = "<group>"; };
+		EA118B71F6962DFEF1B67E93DCB77A24 /* Pods-ToDoAppWithReSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ToDoAppWithReSwift.modulemap"; sourceTree = "<group>"; };
+		F7433F7A2AA8914B55420E400BDE4D93 /* StoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreType.swift; path = ReSwift/CoreTypes/StoreType.swift; sourceTree = "<group>"; };
+		FCD21ACD6F5822714193AC9F8422D7BF /* Pods-ToDoAppWithReSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToDoAppWithReSwift-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C4FC493976214BB386C0B826ADE50BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C5FE7E5703604DF225AF0259DFCC16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E969479F4A13D7AB07F4BB89358271E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4354A3EFA0764B8277A63F967F3A8B39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		631B97325FB7C242E117CD3E8554E47B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6909EBDADA45180C8544D6C08575B494 /* Pods-ToDoAppWithReSwift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6909EBDADA45180C8544D6C08575B494 /* Pods-ToDoAppWithReSwift */ = {
+			isa = PBXGroup;
+			children = (
+				EA118B71F6962DFEF1B67E93DCB77A24 /* Pods-ToDoAppWithReSwift.modulemap */,
+				2FD21359AE3EC23A1FB2E2BF0A76BD75 /* Pods-ToDoAppWithReSwift-acknowledgements.markdown */,
+				47151EBF0E4F1A8242746E54829097DB /* Pods-ToDoAppWithReSwift-acknowledgements.plist */,
+				FCD21ACD6F5822714193AC9F8422D7BF /* Pods-ToDoAppWithReSwift-dummy.m */,
+				B2ECA5755066A42D25632C51325493B5 /* Pods-ToDoAppWithReSwift-frameworks.sh */,
+				0BAE7022D365503A7A8A05996CCD806A /* Pods-ToDoAppWithReSwift-Info.plist */,
+				8677120D6F41949B12D17EB5D12802E4 /* Pods-ToDoAppWithReSwift-umbrella.h */,
+				CF0526F6C7D08A1F98742B9E2E04AED3 /* Pods-ToDoAppWithReSwift.debug.xcconfig */,
+				9C9AD477AE3008F499FD8ADCA254C84F /* Pods-ToDoAppWithReSwift.release.xcconfig */,
+			);
+			name = "Pods-ToDoAppWithReSwift";
+			path = "Target Support Files/Pods-ToDoAppWithReSwift";
+			sourceTree = "<group>";
+		};
+		8E042EA3475173A12FC520D9D51FC89D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A95A0463304DC6C8C053479A8AD29F44 /* Pods_ToDoAppWithReSwift.framework */,
+				9B1F4D291014ECD415BABC4F684D37DB /* ReSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6E377CD576C8AB1F3C882C0B570BC26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3CC4318912423C041AA31A25950A4 /* ReSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7053ABF480A13817ABE7EEED7155E9C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62EE9F82C56371CBE0A7764B76B397D6 /* ReSwift.modulemap */,
+				2DDD6B4512614CB888E9206FFFE44D88 /* ReSwift-dummy.m */,
+				CCFECCA8815DE13865B1197D6C2B8876 /* ReSwift-Info.plist */,
+				D05D872C8619FEE7F5ABBF236D8DB734 /* ReSwift-prefix.pch */,
+				BAF37F4A287700EC43C3C4CF80A0C318 /* ReSwift-umbrella.h */,
+				25A3081173C650DA5C1CADA824CBB039 /* ReSwift.debug.xcconfig */,
+				5DB8EF316BC659859B10EF2DE80D5F98 /* ReSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReSwift";
+			sourceTree = "<group>";
+		};
+		BCA3CC4318912423C041AA31A25950A4 /* ReSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACE0D5ACB1E15FD14CFD3AD81E2977 /* Action.swift */,
+				750E695108938B979F494079F8399471 /* Assertions.swift */,
+				325D91489D36440C1FBBC44FA507927B /* Coding.swift */,
+				6D843D4DCC6EB67C8C6B5319F5215742 /* DispatchingStoreType.swift */,
+				22B73BD0100BCB4B90F259D75B10D7B9 /* Middleware.swift */,
+				A7B04B2C9F5BB483027488F2B5EEC0CA /* Reducer.swift */,
+				79A70C04BA471C0F1F9580028468F997 /* State.swift */,
+				C93EB10AF22A5B9135DFECAD273116ED /* Store.swift */,
+				BABC84A43BA1AF39082A2BEE5E646DC0 /* StoreSubscriber.swift */,
+				F7433F7A2AA8914B55420E400BDE4D93 /* StoreType.swift */,
+				6666D31DE3649A3837BC27D68F100794 /* Subscription.swift */,
+				8ABF53C6BDD299D3748C995C8BDE8517 /* Synchronized.swift */,
+				2356D08D853B46514A118B8C71E5E435 /* TypeHelper.swift */,
+				B7053ABF480A13817ABE7EEED7155E9C /* Support Files */,
+			);
+			name = ReSwift;
+			path = ReSwift;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A6E377CD576C8AB1F3C882C0B570BC26 /* Pods */,
+				8E042EA3475173A12FC520D9D51FC89D /* Products */,
+				631B97325FB7C242E117CD3E8554E47B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		87755B4B2227C9397D032062E11D3C6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92526720CCD829818C4A1B82BDD6A3E8 /* ReSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F5BCFC9479A0B6B1D60E97E3C7051C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E849AC7A9C362FF50AA7053A2000406 /* Pods-ToDoAppWithReSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D8EA5BD8126DF56C564CDD8B8C585D0 /* ReSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C18D5A2EEDD4B460177260191C1F27 /* Build configuration list for PBXNativeTarget "ReSwift" */;
+			buildPhases = (
+				87755B4B2227C9397D032062E11D3C6F /* Headers */,
+				9231EEB54DC66A5BF32E064FFDECA28D /* Sources */,
+				7E969479F4A13D7AB07F4BB89358271E /* Frameworks */,
+				06E140B879CBADFBA439E836D2C567EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReSwift;
+			productName = ReSwift;
+			productReference = 9B1F4D291014ECD415BABC4F684D37DB /* ReSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		590CC6C7BEB8C527DA329FB4DD3AD8A2 /* Pods-ToDoAppWithReSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55CF97B2F6CB2EE0C8E74A8E5B4260E /* Build configuration list for PBXNativeTarget "Pods-ToDoAppWithReSwift" */;
+			buildPhases = (
+				D4F5BCFC9479A0B6B1D60E97E3C7051C /* Headers */,
+				93E50780B3015531CC5533882FDBC3CD /* Sources */,
+				3C4FC493976214BB386C0B826ADE50BF /* Frameworks */,
+				F74A1F3F94A9D90BEEC0735A6AF14985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD38BF5AF715C5F1D48ABD0D3D2AC066 /* PBXTargetDependency */,
+			);
+			name = "Pods-ToDoAppWithReSwift";
+			productName = "Pods-ToDoAppWithReSwift";
+			productReference = A95A0463304DC6C8C053479A8AD29F44 /* Pods_ToDoAppWithReSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8E042EA3475173A12FC520D9D51FC89D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				590CC6C7BEB8C527DA329FB4DD3AD8A2 /* Pods-ToDoAppWithReSwift */,
+				3D8EA5BD8126DF56C564CDD8B8C585D0 /* ReSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06E140B879CBADFBA439E836D2C567EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74A1F3F94A9D90BEEC0735A6AF14985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9231EEB54DC66A5BF32E064FFDECA28D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B4BF5EAAEB799C7054E118F3CBB972 /* Action.swift in Sources */,
+				BCE15EED0DC004F52A477BEA21D0D0EE /* Assertions.swift in Sources */,
+				BE6D366CA76133AAACA4671BB8394A8D /* Coding.swift in Sources */,
+				5AF9D73AA7132ED4CFA5A12B785508D5 /* DispatchingStoreType.swift in Sources */,
+				97847B51E2535652B1931CA745E414EE /* Middleware.swift in Sources */,
+				B7D0C704440C94315791A6E8673FB9DB /* Reducer.swift in Sources */,
+				18EA2565C3C2791F74352E772A5B14A0 /* ReSwift-dummy.m in Sources */,
+				862AFBE605CA9CE52EA72683BEA68E82 /* State.swift in Sources */,
+				79E8B844695527A46C98C6E3807689D6 /* Store.swift in Sources */,
+				40BD2A8D386AD2F905530A8B35C89DF0 /* StoreSubscriber.swift in Sources */,
+				29B6735609327FA2CDE0D800F8FD32DB /* StoreType.swift in Sources */,
+				300A9001A0B0D04C9F269885DE6FE392 /* Subscription.swift in Sources */,
+				CE29FD5F6AFC1610BAD7EF7DB16F4172 /* Synchronized.swift in Sources */,
+				1931E75C6AA6364C76AE8B96F0E54EBD /* TypeHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E50780B3015531CC5533882FDBC3CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B776532A73CDE5CDA8EB2B69257CB4 /* Pods-ToDoAppWithReSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD38BF5AF715C5F1D48ABD0D3D2AC066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReSwift;
+			target = 3D8EA5BD8126DF56C564CDD8B8C585D0 /* ReSwift */;
+			targetProxy = FD49B3CE7030F2C7718D584DE1AB5783 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5CC989AD169295F2B0EA8219CC8BA84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF0526F6C7D08A1F98742B9E2E04AED3 /* Pods-ToDoAppWithReSwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDoAppWithReSwift/Pods-ToDoAppWithReSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDoAppWithReSwift/Pods-ToDoAppWithReSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AAAA8E7C0DC3E11F30E0325FDB133E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB8EF316BC659859B10EF2DE80D5F98 /* ReSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReSwift/ReSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReSwift/ReSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReSwift/ReSwift.modulemap";
+				PRODUCT_MODULE_NAME = ReSwift;
+				PRODUCT_NAME = ReSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD8A366F4FAEBA47D80647EA6141ECE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9AD477AE3008F499FD8ADCA254C84F /* Pods-ToDoAppWithReSwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDoAppWithReSwift/Pods-ToDoAppWithReSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDoAppWithReSwift/Pods-ToDoAppWithReSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D33F6753845C009B29F23E5C78CE8C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A3081173C650DA5C1CADA824CBB039 /* ReSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReSwift/ReSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReSwift/ReSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReSwift/ReSwift.modulemap";
+				PRODUCT_MODULE_NAME = ReSwift;
+				PRODUCT_NAME = ReSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2C18D5A2EEDD4B460177260191C1F27 /* Build configuration list for PBXNativeTarget "ReSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33F6753845C009B29F23E5C78CE8C67 /* Debug */,
+				AAAA8E7C0DC3E11F30E0325FDB133E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55CF97B2F6CB2EE0C8E74A8E5B4260E /* Build configuration list for PBXNativeTarget "Pods-ToDoAppWithReSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC989AD169295F2B0EA8219CC8BA84E /* Debug */,
+				BD8A366F4FAEBA47D80647EA6141ECE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
